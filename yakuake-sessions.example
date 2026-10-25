@@ -1,0 +1,9 @@
+# Copy to ~/.config/yakuake-sessions and edit.
+# title|cd|folder, title|run|command, title|type|command
+
+p|run|cd ~/p && keychain && ssh-add
+notes|cd|~/p/notes
+app|cd|~/p/app
+app|cd|~/p/app
+web|type|ssh web.example.com
+db|type|ssh db.example.com -l deployer
