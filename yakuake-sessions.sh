@@ -11,7 +11,6 @@
 # Empty lines and lines starting with "#" are skipped. The first line uses the tab that is open when Yakuake starts.
 
 sessions_file=${1:-$HOME/.config/yakuake-sessions}
-[ ! -f "$sessions_file" ] && { echo "Error: File '$sessions_file' not found!"; exit 1; }
 
 # Arguments: SessionID
 # Returns the terminal id of the session's first terminal.
